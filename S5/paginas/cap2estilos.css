@@ -1,0 +1,39 @@
+/*selector de etiqueta*/
+nav{
+    background:steelblue;
+}
+
+h2{
+    color:blue;
+}
+
+/*seletor de clases*/
+.titulo{
+    text-align: center;
+}
+
+.titulo-borde{
+    border: 2px solid black;
+}
+#idsec{
+    border: 4px double black;
+}
+[href]{
+    text-decoration: none;
+}
+
+[href="www."]{
+         
+}
+
+[href^="htttps"]{
+     color: olive;
+}
+
+[href$="..com"]{
+     text-decoration: underline;
+}
+
+[href="#"]{
+     color:blue
+}

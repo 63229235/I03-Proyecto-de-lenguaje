@@ -1,0 +1,38 @@
+.titulo{
+    color: blue;
+}
+
+.h3{
+    color: blue;
+}
+
+div.contenedor{
+    border: 3px dotted black;
+}
+
+/* selectores desentientes*/
+
+div.contenedor p{
+    color: red;
+}
+
+div.contenedor>p{
+    text-align: center;
+    color: blue;
+}
+
+body>div{
+    background-color: yellow;
+}
+
+div.contenedor>div>p{
+    text-decoration: underline;
+}
+.contenedor a{
+    text-decoration: none;
+    color: green;
+}
+
+.titulo{
+    border: 4px double blue;
+}
