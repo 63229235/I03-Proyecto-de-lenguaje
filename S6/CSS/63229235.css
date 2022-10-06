@@ -1,0 +1,25 @@
+body{
+    padding-top: 10px;
+    border: 1;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+.nivel1{
+    background: #00f;
+    padding: 2px solid;
+}
+
+
+.nivel2{
+    background: #aaa;
+    padding: 2px solid;
+}
+
+.nivel3{
+    background: #0f0;
+    padding: 2px solid;
+}
