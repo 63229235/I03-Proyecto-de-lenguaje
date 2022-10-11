@@ -1,0 +1,19 @@
+header>h2.title#title{
+    font-size: 10px;
+}
+
+.header{
+    height: 400px;
+    background: red;
+    color: white;
+    font-size: 20px;
+}
+
+.copy{
+    color: black;
+}
+
+
+
+
+
