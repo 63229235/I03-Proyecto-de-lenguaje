@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de variables</title>
+</head>
+<body>
+   <div>
+        <div>
+            <h1>Ejercicios de variables</h1>
+            <script>
+                var nombre, apellido;
+        
+                nombre = prompt("Ingrese su nombre: ");
+                apellido = prompt("Ingrese su apellido: ");
+        
+                alert("Mi nombre completo es " + nombre + " " + apellido);
+        
+                var edad = prompt("Ingrese su edad: ");
+                console.log("La edad de " + nombre + " es " + edad + " años");
+        
+                var rejuvenecer = prompt("Ingrese la edad a rejuvenecer: ");
+                /*alert("La nueva edad es "+ (edad - rejuvenecer));
+                console.log("La nueva edad es: " + (edad - rejuvenecer));*/
+        
+                document.write("La nueva edad es: " + (edad - rejuvenecer));
+        
+                document.write("<p>");
+                document.write("A ti te gustaria tener " + (edad - rejuvenecer));
+                document.write("</p>");
+            </script> 
+        </div>
+   </div>
+</body>
+</html>
