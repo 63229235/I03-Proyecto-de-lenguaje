@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numA = parseFloat(prompt("Ingresa el primer numero"));
+        var numB = parseFloat(prompt("Ingresa el primer numero"));
+
+        var ope = prompt("Ingresa suma/resta/multiplicacion/division");
+
+        if (ope.toLowerCase() == "suma")
+        {
+            alert(numA + numB);
+        }
+
+        if (ope.toLowerCase() == "resta")
+        {
+            alert(numA - numB);
+        }
+
+        if ((ope.toLowerCase() == "multiplicacion") || (ope.toLowerCase() == "multiplicación"))
+        {
+            alert(numA * numB);
+        }
+
+        if ((ope.toLowerCase() == "division") || (ope.toLowerCase() == "división"))
+        {
+            alert(numA / numB);
+        }
+    </script>
+</body>
+</html>
