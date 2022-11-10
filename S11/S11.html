@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1" method="post" action="" id="miformulario">
+        <table width="25%" border="1" id="mitabla">
+          <tr>
+            <td>Nombre:</td>
+            <td><label for="textfield"></label>
+            <input type="text" name="textfield" id="textfield"></td>
+          </tr>
+          <tr>
+            <td>Apellidos:</td>
+            <td><input type="text" name="textfield2" id="textfield2"></td>
+          </tr>
+          <tr>
+            <td>Edad:</td>
+            <td><input type="text" name="textfield3" id="textfield3"></td>
+          </tr>
+          <tr>
+            <td>Carnet:</td>
+            <td><input type="text" name="textfield4" id="textfield4"></td>
+          </tr>
+          <tr>
+            <td><input type="submit" name="button" id="button" value="Enviar"></td>
+            <td><input type="reset" name="button2" id="button2" value="Restablecer"></td>
+          </tr>
+        </table>
+      </form>
+    <script>
+    var color = prompt("Ingrese el color (rojo/amarillo/verde)");
+    var formulario = document.getElementById("miformulario"); 
+        
+    color = color.toLowerCase();
+    
+    if((color != "rojo") && (color != "verde") && (color != "amarillo"))
+    {
+      alert("el color ingresado no es permitido");
+    }
+    else if (color == "amarillo")
+      {
+        formulario.style.background = "yellow";
+      }
+    else if (color == "rojo")
+      {
+        formulario.style.background = "red";
+      }
+    else
+      {
+        formulario.style.background = "green";
+      }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Que dia es hoy?</h1>
+    <p>hoy es:
+        <script>dia_de_hoy();</script>
+    </p>
+    <script>
+        var hoy = "hola mundo";
+
+        function dia_de_hoy(){
+            var hoy = new Date ();
+            document.write(hoy.toDateString());
+        }
+
+        dia_de_hoy();
+    </script>
+    <p>reafirmo que el dia de hoy es: <script>dia_de_hoy();</script></p>
+</body>
+</html>
