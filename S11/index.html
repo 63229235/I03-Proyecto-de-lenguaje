@@ -8,30 +8,61 @@
 </head>
 <body>
     <script>
+
+    function division(num1, num2){
+        alert("El resultado de la division es " + (num1/num2))
+    }
+
+    function multiplicacion(num1, num2){
+        alert("El resultado de la multiplicacion es " + (num1*num2))
+    }
+
+    function resta(num1, num2){
+        alert("El resultado de la reta es " + (num1-num2))
+    }
+
+    function suma(num1, num2){
+        alert("El resultado de la suma es " + (num1+num2))
+    }
+
+    repetir = "si";
+    while("si" == "si"){
+
+        var ope = prompt("Ingresa suma/resta/multiplicacion/division");
         var numA = parseFloat(prompt("Ingresa el primer numero"));
         var numB = parseFloat(prompt("Ingresa el primer numero"));
-        if ((isNaN(numA) == false) && );
-        var ope = prompt("Ingresa suma/resta/multiplicacion/division");
-
-        if (ope.toLowerCase() == "suma")
+        
+        if ((isNaN(numA) == false) && (isNaN(numB) == false))
         {
-            alert(numA + numB);
+        if (ope == "suma")
+        {
+            suma(numA, numB);
         }
 
-        if (ope.toLowerCase() == "resta")
+        else if (ope == "resta")
         {
-            alert(numA - numB);
+            resta(numA, numB);
         }
 
-        if ((ope.toLowerCase() == "multiplicacion") || (ope.toLowerCase() == "multiplicación"))
+        else if ((ope == "multiplicacion") || (ope == "multiplicación"))
         {
-            alert(numA * numB);
+            multiplicacion(numA, numB);
         }
 
-        if ((ope.toLowerCase() == "division") || (ope.toLowerCase() == "división"))
+        else if ((ope == "division") || (ope == "división"))
         {
-            alert(numA / numB);
+            division(numA, numB);
+        } 
+        else{
+            alert("Operacion no completada")
         }
+        }
+        else{
+        alert("Ingrese los numeros correctamente")
+        }
+
+    var repetir = prompt("Deseas repetir? (si/no)")
+    }
     </script>
 </body>
 </html>
